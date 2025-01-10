@@ -4,8 +4,8 @@
  SRC = drw.c dwm.c util.c
  OBJ = ${SRC:.c=.o}
  
--all: options dwm dwm-msg
-+all: options dwm
+-all: options dwm
++all: options dwm dwm-msg
  
  options:
  	@echo dwm build options:
